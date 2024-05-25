@@ -1,0 +1,74 @@
+@import url('https://fonts.googleapis.com/css2?family=Oregano:ital@0;1&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Rubik:ital,wght@0,300..900;1,300..900&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family: Oregano;
+    background-color: #F56443;
+}
+main{
+    width: fit-content;
+    padding: 10px;
+    margin: auto;
+}
+
+main h2{
+    font-size: 2.5rem;
+    margin-bottom: 20px;
+    color: white;
+}
+
+.content{
+    width: 100%;
+    height: 200px;
+    border-radius: 10px;
+    background-color: rgba(255, 255, 255, 0.306);
+    box-shadow: 10px 10px 16px 0px rgba(0, 0, 0, 0.247);
+    margin-bottom: 20px;
+    cursor: pointer;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 3rem;
+    color: white;
+    transition: transform 0.3s linear, scale 0.3s linear;
+    
+}
+
+.content:hover{
+    scale: 1.05;
+}
+.resetPlace{
+    transform: translate(0px) !important;
+}
+.content:nth-child(even){
+    transform: translateX(-400%);
+
+}
+
+.content:nth-child(odd){
+    transform: translateX(400%);
+
+}
+
+footer{
+    font-family: 'Rubik';
+    text-align: center;
+    font-size: 2rem;
+    color: black;
+    background-color: white;
+    border-top: 12px solid black;
+    padding: 20px;
+    color: gray;
+}
+footer a{
+    color: gray;
+    text-decoration: none;
+}
+footer a:hover{
+    color: gray;
+    text-decoration: underline;
+}
