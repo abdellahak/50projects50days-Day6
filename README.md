@@ -1,5 +1,5 @@
 # 50 Projects in 50 Days — HTML/CSS and JavaScript （Day 6）
-## Day 6 — Rotating Navigation Animation :
+## Day 6 — Scroll Animation :
 
 the sixth project of 50 projects in 50 days challenge
 
