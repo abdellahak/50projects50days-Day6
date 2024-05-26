@@ -11,8 +11,9 @@ body{
 }
 main{
     width: fit-content;
-    padding: 10px;
     margin: auto;
+    overflow: hidden;
+    padding: 30px;
 }
 
 main h2{
